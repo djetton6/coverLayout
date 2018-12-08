@@ -60,6 +60,17 @@ a {
     height: 60vh;
 }
 
+/* GRID */
+
+.grid-wrapper {
+    display:grid;
+    grid-gap:20px;
+    grid-template-columns: repeat(auto-fill,minmax(350px, 1fr));
+}
+
+box > img {
+    width: 100%;
+}
 
  .green{
     background: #56B870; /* Old browsers */
